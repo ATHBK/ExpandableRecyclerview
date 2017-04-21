@@ -1,5 +1,6 @@
 # ExpandableRecyclerview
 ExpandableRecyclerview is a library that allows you to create a expandle recyclerview  
+
 1. Add or Remove a Parent	
   ![demo](ScreenShots/add_remove_change_a_parent.gif)
   
