@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/athbk/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_4baf5aa7d377d8c2b62559bfab33c5ebf9668a44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fae6d6a8c45ff8c9d0a4ea75d41280602f8eba08">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_a52b1c0ec0a5d0cb570017ecc6e644905446bff2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_a00b55e51ad921f0fdba48afb18b71dcbe23da45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="552a98f7d45ac3e2d467348a4e1d4bcb507ec4df">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/instant-run_28a4708cfefd49d4a9ec082ed942c6e926db0089.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_31f634a73141e18f683eef68edce78dc607c0384.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_8f26dadec32ca06ad2de1c986d59f0db11395cf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_92869e04da73cca868039c4ed0b1bfddab7d5068.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_c41500b8055191aa193981d14d04bdd2f108ba71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_5b78969d680bba791e1a21aa73d6b706acc61e35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_8524f4a85c533b253e1411654041ac53c53f265f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_c706dd0b5620a45138eaae7c8c0bb2ac90a3a343.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_26e49fd7352a61c0b76fcb6966bffa8d96e1e017.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Volumes/Macintosh HDD/Project/Project Android/My Library/ExpandRecyclerViewSample/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_5fade983fb5268f307adcf176774ba6ef056101b.jar" />
+    </item>
+
+</items>
