@@ -50,7 +50,7 @@ Add this to your module's `build.gradle` file:
 
 ```gradle
 dependencies {
-	compile 'com.github.ATHBK:SlidingTabLayout:v1.0'
+	compile 'com.github.ATHBK:ExpandableRecyclerview:v1.0'
 }
 ```
 
