@@ -1,31 +1,28 @@
 # ExpandableRecyclerview
 ExpandableRecyclerview is a library that allows you to create a expandle recyclerview  
-- SlidingTab
-- Tab Normal
-
+1. Add or Remove a Parent	
   ![demo](ScreenShots/add_remove_change_a_parent.gif)
   
-  
+2. Add or Remove more a parent  
   ![demo](ScreenShots/add_remove_more_parent.gif)
   
+3. Add or Remove a Children  
+  ![demo](ScreenShots/add_remove_a_children.gif)
   
-  ![demo](ScreenShots/add_remove_a_children.png)
-  
-  
-  ![demo](ScreenShots/add_remove_more_children.png)
+4. Add or Remove more a Children  
+  ![demo](ScreenShots/add_remove_more_children.gif)
 ---
 
 
 # Table of Contents
 
-1. [Gradle Dependency](https://github.com/ATHBK/SlidingTabLayout#gradle-dependency)
-   1. [Repository](https://github.com/ATHBK/SlidingTabLayout#repository)
-   2. [Dependency](https://github.com/ATHBK/SlidingTabLayout#dependency)
-2. [Basic Usage](https://github.com/ATHBK/SlidingTabLayout#basic-usage)
-   1. [IndicatorView XML](https://github.com/ATHBK/SlidingTabLayout#slidingtablayout-xml)
-   2. [Attributes](https://github.com/ATHBK/SlidingTabLayout#slidingtablayout-attr )
-3. [Init Java](https://github.com/ATHBK/SlidingTabLayout#init-from-java)
-4. [License](https://github.com/ATHBK/SlidingTabLayout#license)
+1. [Gradle Dependency](https://github.com/ATHBK/ExpandableRecyclerview#gradle-dependency)
+   1. [Repository](https://github.com/ATHBK/ExpandableRecyclerview#repository)
+   2. [Dependency](https://github.com/ATHBK/ExpandableRecyclerview#dependency)
+2. [Init Java](https://github.com/ATHBK/ExpandableRecyclerview#init-from-java)
+   1. [Java](https://github.com/ATHBK/ExpandableRecyclerview#Java)
+   2. [ExpandableRecyclerview Support Function](https://github.com/ATHBK/ExpandableRecyclerview#ExpandableRecyclerview-Support-Function)
+3. [License](https://github.com/ATHBK/ExpandableRecyclerview#license)
 
    
 ---
@@ -58,86 +55,41 @@ dependencies {
 
 ---
 
-# Basic Usage
-
-#### SlidingTabLayout XML
-
-To use this SlidingTabLayout in your layout simply copy and paste the xml below. This provides the default indicator. 
-
-1. With TabLayout:
-```xml
-<com.athbk.slidingtablayout.TabLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tabLayout"
-        android:background="@color/colorGray"
-        app:tab_text_color="@color/tab_color_seleted"
-/>
-````
-2. With SlidingTabLayout:
-```xml
-<com.athbk.slidingtablayout.SlidingTabLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tabLayout"
-        android:background="@color/colorGray"
-	/>
-```
-#### SlidingTabLayout Attr 
-
-There are several other attributes that can be used to configure color text, icon, background tab, size.
-1.  With TabLayout:
-
-| Attrrs                 |                        |  type   |
-| -----------------------|:----------------------:|---------|
-| tab_text_size          | size of text           |dimension|
-| tab_text_color         | color of text          |reference|
-| tab_under_line_color   | color of under line    |color    |
-| tab_under_line_visible | visible of under line  |boolean  |
-| tab_auto_align         | auto align width size  |boolean  |
-| tab_padding_left       | padding left           |dimension|
-| tab_padding_right      | padding right          |dimension|
-| tab_padding_top        | padding top            |dimension|
-| tab_padding_bottom     | padidng bottom         |dimension|
-| tab_background         | customer background tab|reference|
-
-
-2. With SlidingTabLayout:
-
-| Attrrs                    |                        |  type   |
-| --------------------------|:----------------------:|---------|
-| sl_tab_text_size          | size of text           |dimension|
-| sl_tab_text_color         | color of text          |reference|
-| sl_tab_under_line_color   | color of under line    |color    |
-| sl_tab_under_line_visible | visible of under line  |boolean  |
-| sl_tab_size_width         | size width of tab      |dimension|
-| sl_tab_padding_left       | padding left           |dimension|
-| sl_tab_padding_right      | padding right          |dimension|
-| sl_tab_padding_top        | padding top            |dimension|
-| sl_tab_padding_bottom     | padidng bottom         |dimension|
-| sl_tab_background         | customer background tab|reference|
-
----
-
 # Init from Java
 
 #### Java
 
-How to use in . 
-
+How to use.
+1. Declare class ParentModel implements Parent<ChildModel>
+2. Declare class ChildModel.
+3. Declare class Adapter extends ExpandableRecyclerViewAdapter
+4. Init
 ```java	
-	ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager(), listFragment, listTab);
-        viewPager.setAdapter(adapter);
-        tabLayout.setViewPager(viewPager, adapter);
+	adapter = new Adapter(listParent);
+        recyclerView.setAdapter(adapter);
 ```
 
-** Note: Adapter must extends SlidingTabAdapter
+#### ExpandableRecyclerview Support Function:
 
-- If title is empty, tab will show only icon
-- If icon is empty, tab will show only title
-- If title and icon is'nt empty, tab will show both.
 
+|                                    Funtion               		       |
+| -----------------------------------------------------------------------------|
+| updateExpandAll()      		   				       |
+| updateCollapseAll()    		   				       |
+| notifyParentInsert(int parentPosition)   				       |
+| notifyParentRangeInsert(int startPosition, int count) 		       |
+| notifyParentRemove(int parentPosition)         			       |
+| notifyParentRangeRemove(int startPosition, int count)       		       |
+| notifyParentChange(int parentPosition)      				       |
+| notifyParentRangeChange(int startPosition, int count)       		       |
+| notifyChildInsert(int parentPosition, int childPosition)     		       |
+| notifyChildRangeInsert(int parentPosition, int startChildPosition, int count)|
+| notifyChildRemove(int parentPosition, int childPosition)		       |
+| notifyChildRangeRemove(int parentPosition, int startChildPosition, int count)|
+| notifyChildChange(int parentPosition, int childPosition)   		       |
+| notifyChildRangeChange(int parentPosition, int startChildPosition, int count)|
 ---
+
 # License
 
     Copyright 2017 ATHBK
